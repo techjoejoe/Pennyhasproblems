@@ -278,6 +278,15 @@ button { cursor: pointer; font-family: var(--font-body); }
 .nav-cta {
   padding: 10px 24px !important;
   font-size: 0.85rem !important;
+  background: var(--navy) !important;
+  border: 2px solid var(--gold) !important;
+  color: var(--white-pure) !important;
+  box-shadow: 0 0 12px rgba(212, 168, 67, 0.2) !important;
+}
+
+.nav-cta:hover {
+  background: var(--gold) !important;
+  color: var(--navy) !important;
 }
 
 .mobile-toggle {
