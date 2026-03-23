@@ -121,14 +121,14 @@ button { cursor: pointer; font-family: var(--font-body); }
 
 .btn-primary {
   background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-  color: var(--navy);
+  color: var(--white-pure);
   box-shadow: 0 4px 20px rgba(212, 168, 67, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 30px rgba(212, 168, 67, 0.45);
-  color: var(--navy);
+  color: var(--white-pure);
 }
 
 .btn-outline {
